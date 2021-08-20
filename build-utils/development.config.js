@@ -13,7 +13,7 @@ module.exports = (env) => ({
   },
   plugins: [new HtmlWebpackPlugin({
     template: "./index.html",
-    favicon: './images/favicon.ico'
+    favicon: './images/favicon.ico',
   })],
   devServer: {
     contentBase: path.join(__dirname, "dist"),
